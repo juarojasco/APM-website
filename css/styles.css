@@ -1,77 +1,202 @@
-body {
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: white;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
     color: #141414;
 }
 
 /* NAVBAR */
 .navbar {
     background-color: #06335f;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+    padding: 15px 60px;
 }
 
 .logo {
+    color: white;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.nav-links a.active {
+    background-color: #f02d4d;
     color: white;
 }
 
 /* HERO */
 .hero {
-    background-color: #06335f;
+    background: linear-gradient(180deg, #0b3c6d, #06335f);
     color: white;
-    padding: 80px 20px;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.badge {
+    background-color: #f02d4d;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.hero span {
+    color: #f02d4d;
+}
+
+.hero p {
+    margin-top: 20px;
+    color: #cbd5e1;
+}
+
+.btn-main {
+    margin-top: 30px;
+    background-color: #f02d4d;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* SECCIONES */
+.section {
+    padding: 80px 60px;
     text-align: center;
 }
 
-.btn {
-    background-color: #f02d4d;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+.gray {
+    background-color: #f3f4f6;
 }
 
-/* CONTENIDO */
-.section {
-    padding: 40px;
+/* ESTADO */
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.step {
+    padding: 25px 40px;
+    border-radius: 15px;
+    background-color: #0b3c6d;
+    color: white;
+}
+
+.step.active {
+    background-color: white;
+    border: 2px solid #f02d4d;
+    color: #141414;
+}
+
+.step.inactive {
+    background-color: #e5e7eb;
+    color: #9ca3af;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* PRODUCTOS */
 .products {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.product {
     text-align: center;
 }
 
-.products img {
-    width: 150px;
-    height: 150px;
+.product img {
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
+    padding: 20px;
+}
+
+.lima {
+    border: 5px solid #4ade80;
+    background-color: #dcfce7;
+}
+
+.toronja {
+    border: 5px solid #f472b6;
+    background-color: #fce7f3;
+}
+
+.cola {
+    border: 5px solid #facc15;
+    background-color: #fef9c3;
 }
 
 /* BOTONES */
 .buttons {
-    text-align: center;
+    margin-top: 40px;
 }
 
-.buttons a {
+.btn {
+    padding: 12px 25px;
+    border-radius: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 
-/* IMÁGENES GRANDES */
-.img-full {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: auto;
+.btn-white {
+    background-color: white;
+    color: #06335f;
+}
+
+.btn-red {
+    background-color: #f02d4d;
+    color: white;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #06335f;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
