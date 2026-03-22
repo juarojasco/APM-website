@@ -407,3 +407,45 @@ body {
     color: #444;
     line-height: 1.6;
 }
+
+
+/* OBJETIVO GENERAL */
+.objetivo-general {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #06335f;
+}
+
+/* LISTA */
+.lista-objetivos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ITEM */
+.item-objetivo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* CIRCULO NUMERO */
+.numero {
+    width: 30px;
+    height: 30px;
+    background-color: #06335f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* TEXTO */
+.item-objetivo p {
+    margin: 0;
+    color: #444;
+}
