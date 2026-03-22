@@ -19,9 +19,24 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.logo-icon {
+    background-color: #f02d4d;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 .nav-links a {
