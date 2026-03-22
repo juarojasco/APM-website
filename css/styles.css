@@ -307,3 +307,30 @@ body {
     text-align: center;
     padding: 30px;
 }
+
+/* TITULO EN FONDO ROJO */
+.title-badge {
+    display: inline-block;
+    background-color: #f02d4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* SUBTITULO GRANDE */
+.subtitle-proyecto {
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+/* TEXTO */
+.text-proyecto {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
