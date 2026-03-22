@@ -489,3 +489,124 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
+
+/* CONTENEDOR PASOS */
+.pasos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* CARD */
+.paso-card {
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* BORDE SOLO PARA COMPLETADOS Y PROCESO */
+.paso-card.completado,
+.paso-card.proceso {
+    border: 1px solid #e5e7eb;
+}
+
+/* ICONO ESQUINA SUPERIOR DERECHA */
+.paso-icono {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+}
+
+/* HEADER */
+.paso-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/* NUMERO */
+.numero.azul {
+    background-color: #06335f;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.numero.rojo {
+    background-color: #f02d4d;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.numero.gris {
+    background-color: #d1d5db;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* ESTADOS */
+.estado {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+}
+
+.estado.verde {
+    background-color: #22c55e;
+}
+
+.estado.amarillo {
+    background-color: #facc15;
+}
+
+.estado.gris-estado {
+    background-color: #9ca3af;
+}
+
+/* RESULTADOS */
+.resultados {
+    margin-top: 15px;
+}
+
+.resultados h4 {
+    color: #06335f;
+    margin-bottom: 8px;
+}
+
+.resultados ul {
+    padding-left: 20px;
+}
+
+.resultados li {
+    margin-bottom: 5px;
+}
+
+/* PENDIENTES SIN BORDE */
+.paso-card.pendiente {
+    border: none;
+    background-color: #f9fafb;
+}
