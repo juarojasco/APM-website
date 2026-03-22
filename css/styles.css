@@ -24,8 +24,9 @@ body {
 }
 
 .logo img {
-    height: 10px;
-    object-fit: contain;
+    max-height: 40px;
+    height: auto;
+    width: auto;
 }
 
 .nav-links a {
