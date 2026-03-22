@@ -177,18 +177,36 @@ body {
 }
 
 .lima {
-    border: 5px solid #4ade80;
+    border: 5px solid #22c55e;
     background-color: #dcfce7;
 }
 
 .toronja {
-    border: 5px solid #f472b6;
-    background-color: #fce7f3;
+    border: 5px solid #facc15;
+    background-color: #fef9c3;
 }
 
 .cola {
-    border: 5px solid #facc15;
-    background-color: #fef9c3;
+    border: 5px solid #f02d4d;
+    background-color: #ffe4e6;
+}
+
+.product h3 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* COLOR DEL TEXTO SEGÚN PRODUCTO */
+.product .lima-title {
+    color: #22c55e;
+}
+
+.product .toronja-title {
+    color: #facc15;
+}
+
+.product .cola-title {
+    color: #f02d4d;
 }
 
 /* BOTONES */
