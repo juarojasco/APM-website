@@ -334,3 +334,76 @@ body {
     color: #444;
     line-height: 1.6;
 }
+
+/* CARD PROBLEMA */
+.card-problema {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #f02d4d;
+    border-radius: 15px;
+    padding: 25px 30px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADER (ICONO + TITULO) */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.card-header img {
+    width: 35px;
+    height: 35px;
+}
+
+/* TITULO */
+.card-problema h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* TEXTO */
+.card-problema p {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* CARD OBJETIVO */
+.card-objetivo {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px 30px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* reutiliza header existente */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.card-header img {
+    width: 35px;
+    height: 35px;
+}
+
+/* título */
+.card-objetivo h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #06335f;
+
+/* texto */
+.card-objetivo p {
+    color: #444;
+    line-height: 1.6;
+}
