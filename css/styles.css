@@ -197,16 +197,16 @@ body {
 }
 
 /* COLOR DEL TEXTO SEGÚN PRODUCTO */
-.product .lima-title {
-    color: #22c55e;
+.lima-title {
+    color: #22c55e !important;
 }
 
-.product .toronja-title {
-    color: #facc15;
+.toronja-title {
+    color: #facc15 !important;
 }
 
-.product .cola-title {
-    color: #f02d4d;
+.cola-title {
+    color: #f02d4d !important;
 }
 
 /* BOTONES */
