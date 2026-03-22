@@ -100,71 +100,44 @@ body {
 .steps {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
 }
 
+/* BASE */
 .step {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: 500;
 }
 
+/* ICONOS */
 .step img {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
-.step {
-    padding: 25px 40px;
-    border-radius: 15px;
-    background-color: #0b3c6d;
+/* TERMINADOS */
+.step.done {
+    background-color: #06335f;
     color: white;
 }
 
+/* EN PROCESO (ACTUAL) */
 .step.active {
     background-color: white;
     border: 2px solid #f02d4d;
     color: #141414;
 }
 
+/* EN PROCESO FUTURO */
 .step.inactive {
     background-color: #e5e7eb;
     color: #9ca3af;
-}
-
-.steps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-}
-
-.step {
-    width: 180px;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    font-weight: 500;
-}
-
-/* HECHOS */
-.step.done {
-    background-color: #dcfce7;
-    border: 2px solid #22c55e;
-}
-
-/* EN PROCESO */
-.step.process {
-    background-color: #dbeafe;
-    border: 2px solid #3b82f6;
-}
-
-.step img {
-    width: 40px;
-    margin-bottom: 10px;
 }
 
 /* CARDS */
