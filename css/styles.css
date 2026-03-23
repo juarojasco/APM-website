@@ -1237,7 +1237,7 @@ body {
 /* HEADER */
 .acad-header {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 15px;
     margin-bottom: 25px;
 }
@@ -1264,12 +1264,12 @@ body {
 
 /* FOOTER */
 .acad-footer {
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
 }
 
 .acad-footer img {
-    width: 90px;
+    width: 150px;
     opacity: 0.25;
     margin-bottom: 10px;
 }
