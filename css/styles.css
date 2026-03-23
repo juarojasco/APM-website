@@ -542,6 +542,36 @@ body {
     color: #374151;
 }
 
+/* TITULO */
+.titulo-linea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.titulo-linea img {
+    width: 40px;
+}
+
+.titulo-linea h2 {
+    color: #06335f;
+}
+
+/* TEXTO */
+.texto-linea {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.texto-linea p {
+    color: #374151;
+    line-height: 1.6;
+}
+
 /* HOVER PRO */
 .alcance-item:hover {
     transform: translateY(-5px);
