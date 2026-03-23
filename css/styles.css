@@ -920,3 +920,74 @@ body {
         flex-direction: column;
     }
 }
+
+/* TITULO CON ICONO */
+.titulo-sim {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.titulo-sim img {
+    width: 40px;
+}
+
+.titulo-sim h2 {
+    color: #06335f;
+}
+
+/* CARD */
+.card-sim {
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* HEADER */
+.sim-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+/* TITULO */
+.sim-header h3 {
+    margin: 0;
+    color: #06335f;
+}
+
+/* BADGE ROJO */
+.badge-red {
+    background-color: #f02d4d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+/* IMAGEN */
+.sim-img {
+    padding: 20px;
+}
+
+.sim-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .sim-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
