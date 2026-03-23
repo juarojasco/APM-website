@@ -802,3 +802,121 @@ body {
     font-size: 13px;
     opacity: 0.8;
 }
+
+/* CARD GENERAL */
+.card-tecno {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.tecno-header {
+    background-color: #06335f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+/* IZQUIERDA */
+.tecno-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-tecno {
+    width: 45px;
+}
+
+/* TITULO */
+.tecno-header h2 {
+    margin: 0;
+}
+
+/* SUBTITULO */
+.tecno-sub {
+    color: #93c5fd;
+    font-size: 14px;
+}
+
+/* LOGO DERECHO */
+.tecno-right {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.tecno-right img {
+    height: 40px;
+}
+
+/* BODY */
+.tecno-body {
+    padding: 30px;
+}
+
+/* TITULO INTERNO */
+.tecno-body h3 {
+    margin-bottom: 15px;
+    color: #06335f;
+}
+
+/* TEXTO */
+.tecno-text {
+    color: #4b5563;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* FEATURES */
+.tecno-features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARD PEQUEÑA */
+.feature {
+    flex: 1;
+    min-width: 220px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* TITULO FEATURE */
+.feature h4 {
+    margin-bottom: 10px;
+    color: #06335f;
+}
+
+/* TEXTO */
+.feature p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .tecno-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .tecno-left {
+        justify-content: center;
+    }
+
+    .tecno-features {
+        flex-direction: column;
+    }
+}
