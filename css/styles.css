@@ -1173,3 +1173,51 @@ body {
     /* 👇 NUEVO */
     border: 1px solid #e5e7eb;
 }
+
+/* TITULO */
+.titulo-limitaciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.titulo-limitaciones img {
+    width: 40px;
+}
+
+.titulo-limitaciones h2 {
+    color: #06335f;
+}
+
+/* LISTA */
+.lista-limitaciones {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ITEM */
+.item-limitacion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* ULTIMO SIN LINEA */
+.item-limitacion:last-child {
+    border-bottom: none;
+}
+
+/* ICONO */
+.item-limitacion img {
+    width: 28px;
+}
+
+/* TEXTO */
+.item-limitacion p {
+    margin: 0;
+    color: #374151;
+}
