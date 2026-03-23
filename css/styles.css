@@ -99,9 +99,15 @@ body {
     }
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
-    height: 64px;
+    height: 50px;
     width: auto;
+     max-height: none;
 }
 
 .navbar.scrolled {
