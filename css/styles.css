@@ -1223,3 +1223,62 @@ body {
     margin: 0;
     color: #374151;
 }
+
+/* CARD PRINCIPAL */
+.card-academico {
+    background-color: #0b3c6d;
+    color: white;
+    border-radius: 20px;
+    padding: 40px 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* HEADER */
+.acad-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.acad-header img {
+    width: 35px;
+}
+
+.acad-header h2 {
+    margin: 0;
+}
+
+/* INFO */
+.acad-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* ETIQUETAS (Materia, Periodo...) */
+.acad-info span {
+    color: #7dd3fc;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.acad-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.acad-footer img {
+    width: 90px;
+    opacity: 0.25;
+    margin-bottom: 10px;
+}
+
+.acad-footer h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.acad-footer p {
+    color: #cbd5e1;
+}
