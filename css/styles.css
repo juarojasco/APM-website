@@ -991,3 +991,61 @@ body {
     }
 
 }
+
+/* TITULO */
+.titulo-consecuencias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.titulo-consecuencias img {
+    width: 40px;
+}
+
+.titulo-consecuencias h2 {
+    color: #06335f;
+}
+
+/* LISTA */
+.lista-consecuencias {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ITEM */
+.item-consecuencia {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* ULTIMO SIN LINEA */
+.item-consecuencia:last-child {
+    border-bottom: none;
+}
+
+/* NUMERO */
+.num-conseq {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffe4e6; /* rosado */
+    color: #f02d4d; /* rojo */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+/* TEXTO */
+.item-consecuencia p {
+    margin: 0;
+    color: #374151;
+}
