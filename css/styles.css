@@ -105,9 +105,9 @@ body {
 }
 
 .logo img {
-    height: 100px;
+    height: 150px;
     width: auto;
-     max-height: none;
+    max-height: none;
 }
 
 .navbar.scrolled {
