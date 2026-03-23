@@ -1248,18 +1248,19 @@ body {
 
 .acad-header h2 {
     margin: 0;
+    font-size: 28px;
 }
 
 /* INFO */
 .acad-info p {
-    margin: 10px 0;
-    font-size: 16px;
+    margin: 12px 0;
+    font-size: 20px;
 }
 
 /* ETIQUETAS (Materia, Periodo...) */
-.acad-info span {
-    color: #7dd3fc;
-    font-weight: 600;
+.acad-info p {
+    margin: 12px 0;
+    font-size: 20px; 
 }
 
 /* FOOTER */
