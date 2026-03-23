@@ -1251,19 +1251,27 @@ body {
     font-size: 28px;
 }
 
-/* INFO */
+/* CONTENIDO */
+.acad-info {
+    text-align: left; 
+}
+
+/* TEXTO GENERAL */
 .acad-info p {
     margin: 12px 0;
     font-size: 20px;
-    align-items: left;
+    color: white; 
 }
 
 /* ETIQUETAS (Materia, Periodo...) */
+.acad-info span {
+    color: #7dd3fc; 
+    font-weight: 700; 
+}
+
 .acad-info p {
-    margin: 12px 0;
-    font-size: 20px; 
-    align-items: left;
-    color: #7dd3fc;
+    margin: 14px 0;
+    line-height: 1.6;
 }
 
 /* FOOTER */
