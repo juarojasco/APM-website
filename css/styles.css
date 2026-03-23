@@ -678,3 +678,9 @@ body {
     width: 100%;
     border-radius: 8px;
 }
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}
