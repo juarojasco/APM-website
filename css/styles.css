@@ -498,6 +498,50 @@ body {
     display: block;
 }
 
+/* TITULO */
+.titulo-piramide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.titulo-piramide img {
+    width: 40px;
+}
+
+.titulo-piramide h2 {
+    color: #06335f;
+}
+
+/* IMAGEN */
+.piramide-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.piramide-img img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+/* TEXTO */
+.piramide-texto {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.piramide-texto p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #374151;
+}
+
 /* HOVER PRO */
 .alcance-item:hover {
     transform: translateY(-5px);
