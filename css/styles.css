@@ -1049,3 +1049,34 @@ body {
     margin: 0;
     color: #374151;
 }
+
+/* TITULO */
+.titulo-propuesta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.titulo-propuesta img {
+    width: 40px;
+}
+
+.titulo-propuesta h2 {
+    color: #06335f;
+}
+
+/* CONTENIDO */
+.contenido-propuesta {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+/* PARRAFOS */
+.contenido-propuesta p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #374151;
+}
