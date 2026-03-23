@@ -1361,3 +1361,41 @@ body {
     color: #9ca3af;
     font-size: 14px;
 }
+
+/* CONTENEDOR */
+.recursos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* BOTON */
+.btn-recurso {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background-color: #06335f;
+    color: white;
+    text-decoration: none;
+
+    padding: 18px 30px;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+/* ICONO */
+.btn-recurso img {
+    width: 28px;
+}
+
+/* HOVER */
+.btn-recurso:hover {
+    background-color: #0b3c6d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
