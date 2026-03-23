@@ -1205,6 +1205,7 @@ body {
     gap: 15px;
     padding: 20px 0;
     border-bottom: 1px solid #e5e7eb;
+    text-align: left;
 }
 
 /* ULTIMO SIN LINEA */
