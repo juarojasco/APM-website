@@ -1255,17 +1255,19 @@ body {
 .acad-info p {
     margin: 12px 0;
     font-size: 20px;
+    align-items: left;
 }
 
 /* ETIQUETAS (Materia, Periodo...) */
 .acad-info p {
     margin: 12px 0;
     font-size: 20px; 
+    align-items: left;
 }
 
 /* FOOTER */
 .acad-footer {
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
 }
 
