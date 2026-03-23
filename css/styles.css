@@ -829,6 +829,42 @@ body {
     }
 }
 
+/* CONTENEDOR */
+.btn-calculos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* BOTON */
+.btn-calculos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background-color: #f02d4d;
+    color: white;
+    text-decoration: none;
+
+    padding: 14px 25px;
+    border-radius: 10px;
+
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* ICONO */
+.btn-calculos img {
+    width: 24px;
+}
+
+/* HOVER */
+.btn-calculos:hover {
+    background-color: #d91f3f;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
 /* CARD */
 .indicador {
     background-color: rgba(255,255,255,0.1);
