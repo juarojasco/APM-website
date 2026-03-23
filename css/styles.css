@@ -1294,3 +1294,60 @@ body {
 .acad-footer p {
     color: #cbd5e1;
 }
+
+/* TITULO */
+.titulo-equipo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.titulo-equipo img {
+    width: 40px;
+}
+
+.titulo-equipo h2 {
+    color: #06335f;
+}
+
+/* GRID RESPONSIVE */
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD */
+.miembro {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e5e7eb;
+}
+
+/* FOTO */
+.miembro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* NOMBRE */
+.miembro h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* ROL */
+.miembro p {
+    color: #9ca3af;
+    font-size: 14px;
+}
