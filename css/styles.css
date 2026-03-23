@@ -1080,3 +1080,74 @@ body {
     line-height: 1.6;
     color: #374151;
 }
+
+/* TITULO */
+.titulo-impacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.titulo-impacto img {
+    width: 40px;
+}
+
+.titulo-impacto h2 {
+    color: #06335f;
+}
+
+/* GRID 2x2 */
+.grid-impacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .grid-impacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CARD */
+.impacto-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* NUMERO GRANDE */
+.impacto-card h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+.impacto-card p {
+    color: #141414;
+    font-weight: 500;
+}
+
+/* COLORES */
+.verde h3 {
+    color: #22c55e;
+}
+
+.azul h3 {
+    color: #3b82f6;
+}
+
+.amarillo h3 {
+    color: #facc15;
+}
+
+.rojo h3 {
+    color: #f02d4d;
+}
