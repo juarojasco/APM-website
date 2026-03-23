@@ -684,3 +684,121 @@ body {
     grid-template-columns: 1fr;
     margin-top: 20px;
 }
+
+/* TITULOS DE SECCION */
+.section-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #06335f;
+}
+
+.section-subtitle {
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+/* GRID */
+.grid-graficos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .grid-graficos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CARD */
+.card-grafico {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADER AZUL */
+.grafico-header {
+    background-color: #0b3c6d;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+/* TEXTO */
+.card-grafico p {
+    padding: 15px 20px;
+    color: #4b5563;
+}
+
+/* IMAGEN */
+.grafico-img {
+    margin: 15px 20px 20px;
+    border: 2px dashed #d1d5db;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grafico-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* SECCION AZUL */
+.indicadores {
+    background-color: #0b3c6d;
+    color: white;
+    border-radius: 20px;
+    margin: 60px;
+}
+
+/* GRID */
+.grid-indicadores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .grid-indicadores {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* CARD */
+.indicador {
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* TITULO */
+.indicador h3 {
+    margin-bottom: 5px;
+}
+
+/* UNIDAD */
+.indicador span {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* TEXTO */
+.indicador p {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* NOTA */
+.nota {
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.8;
+}
