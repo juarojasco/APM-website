@@ -1129,6 +1129,46 @@ body {
 
 }
 
+/* SUBSECCIONES */
+.sim-subsection {
+    padding: 25px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* QUITAR LINEA EN LA ULTIMA */
+.sim-subsection:last-child {
+    border-bottom: none;
+}
+
+/* GRID DE IMAGENES */
+.sim-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* IMAGENES */
+.sim-grid img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+/* HOVER PRO */
+.sim-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .sim-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* TITULO */
 .titulo-consecuencias {
     display: flex;
