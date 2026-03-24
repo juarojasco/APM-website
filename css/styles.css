@@ -772,7 +772,10 @@ body {
 /* IMAGEN */
 .resultado img {
     width: 100%;
+    max-width: 700px; 
     border-radius: 8px;
+    display: block;
+    margin: auto;
 }
 
 .grid-1 {
