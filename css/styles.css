@@ -1680,3 +1680,18 @@ body {
     background-color: #d91f3f;
     transform: translateY(-2px);
 }
+
+/* BOTON DESHABILITADO */
+.btn-nav.disabled {
+    background-color: #d1d5db; /* gris */
+    color: #6b7280; /* texto gris oscuro */
+    cursor: not-allowed;
+    pointer-events: none; /* evita clics */
+    opacity: 0.8;
+}
+
+/* opcional: quitar animación hover */
+.btn-nav.disabled:hover {
+    transform: none;
+    background-color: #d1d5db;
+}
