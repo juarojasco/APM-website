@@ -1576,3 +1576,67 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+
+/* SECCION ROJA */
+.modulos-section {
+    background-color: #f02d4d;
+    color: white;
+    border-radius: 20px;
+    margin: 60px;
+}
+
+/* GRID */
+.grid-modulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .grid-modulos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-modulos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CARD */
+.modulo-card {
+    background-color: #d91f3f;
+    padding: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+
+    transition: 0.3s;
+}
+
+/* NUMERO */
+.mod-num {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* TITULO */
+.modulo-card h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* PROFESOR */
+.mod-prof {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* HOVER */
+.modulo-card:hover {
+    background-color: #06335f;
+    transform: scale(1.05);
+}
