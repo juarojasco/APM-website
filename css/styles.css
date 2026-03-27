@@ -68,7 +68,7 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 1500px) {
+@media (max-width: 900px) {
 
     .menu-toggle {
         display: block;
