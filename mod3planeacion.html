@@ -6,55 +6,172 @@
 </head>
 <body>
 
-<div class="navbar">
+<!-- NAVBAR -->
+<div class="navbar" id="navbar">
     <div class="logo">
         <img src="source/logo.png">
     </div>
-</div>
 
-<div class="section">
-
-    <div class="title-badge">MÓDULO 3</div>
-
-    <h2 class="subtitle-proyecto">
-        Planeación de Proyectos
-    </h2>
-
-</div>
-
-<div class="section gray">
-
-    <div class="pasos-container">
-
-        <div class="paso-card pro">
-            <div class="paso-top">
-                <div class="paso-left">
-                    <div class="numero azul">1</div>
-                    <h3>Alcance</h3>
-                </div>
-            </div>
-
-            <div class="paso-body">
-                <div class="grid-1">
-                    <img src="source/edtproy.png">
-                </div>
-            </div>
-        </div>
-
-        <div class="paso-card pro">
-            <div class="paso-top">
-                <div class="numero azul">2</div>
-                <h3>Tiempos</h3>
-            </div>
-
-            <div class="paso-body">
-                <img src="source/cronograma.png">
-            </div>
-        </div>
-
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a class="active" href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
     </div>
 
+    <div class="menu-toggle" id="menuToggle">☰</div>
 </div>
+
+<!--MODULO 3 --> 
+<div class="section"> 
+    <div class="title-badge"> 
+        MÓDULO 3 
+    </div> 
+    <h2 class="subtitle-proyecto"> 
+    Planeación de Proyectos 
+    </h2> 
+    <!-- 7 PASOS --> 
+    <div class="section gray"> 
+    <h2>7 Pasos de Gestión de Proyectos según el BID</h2> 
+    <div class="pasos-container"> 
+        <!-- PASO 1 --> 
+        <div class="paso-card pro"> 
+            <!-- HEADER --> 
+            <div class="paso-top"> 
+                <div class="paso-left"> 
+                    <div class="numero azul">1</div> 
+                    <h3>ALCANCE</h3> 
+                    <span class="estado verde">Completado</span> 
+                </div> 
+                <img class="paso-icono" src="source/analisis2.png"> 
+            </div> 
+            <!-- CONTENIDO --> 
+            <div class="paso-body"> 
+                <p> 
+                El alcance define los límites del proyecto y las entregas esperadas. 
+                Se estructuró mediante la Estructura de Desglose del Trabajo (EDT). 
+                </p> 
+                <div class="grid-resultados-1col"> 
+                    <div class="resultado"> 
+                        <h4>EDT del Proyecto</h4> 
+                        <img src="source/edtproy.png"> 
+                    </div> 
+                    <div class="resultado"> 
+                        <h4>EDT de Producción</h4> 
+                        <img src="source/edtprod.png"> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <!-- PASO 2 --> 
+        <div class="paso-card pro"> 
+            <!-- HEADER --> 
+            <div class="paso-top"> 
+                <div class="paso-left"> 
+                    <div class="numero azul">2</div> 
+                    <h3>TIEMPOS</h3> 
+                    <span class="estado verde">Completado</span> 
+                </div> 
+                <img class="paso-icono" src="source/tiempo2.png"> 
+            </div> 
+            <!-- CONTENIDO --> 
+            <div class="paso-body"> 
+                <p> 
+                Planificación temporal del proyecto mediante un cronograma detallado 
+                que define las actividades, duraciones y dependencias. 
+                </p> 
+                <div class="grid-1"> 
+                    <div class="resultado"> 
+                        <h4>Cronograma del Proyecto</h4> 
+                        <img src="source/cronograma.png"> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <!-- PASO 3 --> 
+        <div class="paso-card pro"> 
+            <!-- HEADER --> 
+            <div class="paso-top"> 
+                <div class="paso-left"> 
+                    <div class="numero rojo">3</div> 
+                    <h3>COSTOS</h3> 
+                    <span class="estado amarillo">En proceso</span> 
+                </div> 
+                <img class="paso-icono" src="source/costo2.png"> 
+            </div> 
+            <!-- CONTENIDO --> 
+            <div class="paso-body"> 
+                <p> 
+                Evaluación económica del proyecto considerando inversión, operación, 
+                beneficios y retorno esperado. 
+                </p> 
+                <div class="grid-resultados"> 
+                    <div class="resultado"> 
+                        <h4>OPEX</h4> 
+                        <img src="source/opex.png"> 
+                    </div> 
+                    <div class="resultado"> 
+                        <h4>CAPEX</h4> 
+                        <img src="source/capex.png"> 
+                    </div> 
+                    <div class="resultado"> 
+                        <h4>Beneficios</h4> 
+                        <img src="source/beneficios.png"> 
+                    </div> 
+                    <div class="resultado"> 
+                        <h4>Flujo de Caja</h4> 
+                        <img src="source/flujocaja.png"> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+        <!-- PASO 4 --> 
+        <div class="paso-card pendiente"> 
+            <img class="paso-icono" src="source/adquisicion2.png"> 
+            <div class="paso-header"> 
+                <div class="numero gris">4</div> 
+                <h3>Adquisiciones</h3> 
+                <span class="estado gris-estado">Pendiente</span> 
+            </div> 
+            <p>Gestión de compra y selección de recursos necesarios para el proyecto.</p> 
+        </div> 
+        <!-- PASO 5 --> 
+        <div class="paso-card pendiente"> 
+            <img class="paso-icono" src="source/riesgo2.png"> 
+            <div class="paso-header"> 
+                <div class="numero gris">5</div> 
+                <h3>Riesgos</h3> 
+                <span class="estado gris-estado">Pendiente</span> 
+            </div> 
+            <p>Identificación y análisis de riesgos asociados al desarrollo del proyecto.</p> 
+        </div> 
+        <!-- PASO 6 --> 
+        <div class="paso-card pendiente"> 
+            <img class="paso-icono" src="source/comunicacion2.png"> 
+            <div class="paso-header"> 
+                <div class="numero gris">6</div> 
+                <h3>Comunicaciones</h3> 
+                <span class="estado gris-estado">Pendiente</span> 
+            </div> 
+            <p>Plan de comunicación entre los integrantes del proyecto y stakeholders.</p> 
+        </div> 
+        <!-- PASO 7 --> 
+        <div class="paso-card pendiente"> 
+            <img class="paso-icono" src="source/raci2.png"> 
+            <div class="paso-header"> 
+                <div class="numero gris">7</div> 
+                <h3>Roles (RACI)</h3> 
+                <span class="estado gris-estado">Pendiente</span> 
+            </div> 
+            <p>Definición de responsabilidades dentro del equipo mediante matriz RACI.</p> 
+            </div> 
+        </div> 
+    </div>
+</div>
+
 
 </body>
 </html>
