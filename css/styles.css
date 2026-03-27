@@ -37,6 +37,7 @@ body {
 /* LINKS */
 .nav-links {
     display: flex;
+    width: 100%;
 }
 
 .nav-links a {
