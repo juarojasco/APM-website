@@ -6,81 +6,194 @@
 </head>
 <body>
 
-<div class="navbar">
+<!-- NAVBAR -->
+<div class="navbar" id="navbar">
     <div class="logo">
         <img src="source/logo.png">
     </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a class="active" href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
 </div>
 
 <div class="section">
 
-    <div class="title-badge">MÓDULO 2</div>
+    <div class="title-badge">MÓDULO 1</div>
 
     <h2 class="subtitle-proyecto">
-        Gestión de Producción
+        Automatización en Manufactura
     </h2>
 
 </div>
 
-<!-- GRAFICOS -->
-<div class="section gray">
-
-    <div class="grid-graficos">
-
-        <div class="card-grafico">
-            <div class="grafico-header">DOP</div>
-            <div class="grafico-img">
-                <img src="source/dop.png">
+<!--MODULO 2 --> 
+<div class="section"> 
+    <div class="title-badge"> 
+        MÓDULO 2 
+    </div> 
+    <h2 class="subtitle-proyecto"> 
+    Gestión de la Producción 
+    </h2> 
+    
+    <!-- GRAFICOS DE PRODUCCION --> 
+    <div class="section gray"> 
+        <h2 class="section-title">Gestión de Producción</h2> 
+        <p class="section-subtitle"> 
+        Herramientas de análisis y diagramas del proceso productivo 
+        </p> 
+        <div class="grid-graficos"> 
+            
+            <!-- DOP --> 
+            <div class="card-grafico"> 
+                <div class="grafico-header"> 
+                Diagrama de Operación del Proceso (DOP) 
+                </div> 
+                <p>Secuencia de operaciones e inspecciones del proceso productivo</p> 
+                <div class="grafico-img"> 
+                <img src="source/dop.png"> 
+                </div> 
+            </div> 
+            
+            <!-- DAP --> 
+            <div class="card-grafico"> 
+                <div class="grafico-header"> 
+                    Diagrama de Análisis de Proceso (DAP) 
+                </div> 
+                <p>Análisis detallado de operaciones, transportes, inspecciones, demoras y almacenajes</p> 
+                <div class="grafico-img"> 
+                    <img src="source/dap.png"> 
+                </div> 
+            </div> 
+            
+            <!-- LAYOUT --> 
+            <div class="card-grafico"> 
+                <div class="grafico-header"> 
+                    Distribución de Planta Actual 
+                </div> 
+                <p>Layout actual de la planta de producción de bebidas carbonatadas</p> 
+                <div class="grafico-img"> 
+                    <img src="source/layout.png"> 
+                </div> 
+                <div class="grafico-img"> 
+                    <img src="source/layoutgeneral.png"> 
+                </div> 
+            </div> 
+            
+            <!-- FLUJO --> 
+            <div class="card-grafico"> 
+                <div class="grafico-header"> 
+                    Diagrama de Flujo de Materias 
+                </div> 
+                <p>Flujo de materiales e insumos a través del proceso productivo</p> 
+                <div class="grafico-img"> 
+                    <img src="source/flujomaterial.jpeg"> 
+                </div> 
+            </div> 
+            
+            <!-- VSM --> 
+            <div class="card-grafico"> 
+                <div class="grafico-header"> 
+                    Value Stream Mapping (VSM) 
+                </div> 
+                <p>Análisis del flujo de valor del sistema productivo</p> 
+                <div class="grafico-img"> 
+                    <img src="source/vsm.png"> 
+                </div> 
+            </div> 
+            <!-- INDICADORES --> 
+            <div class="section indicadores"> 
+                <h2>Indicadores de Producción</h2> 
+                <div class="grid-indicadores"> 
+                    <div class="indicador"> 
+                        <h3>Rp</h3> 
+                        <span>20,000 b/h</span> 
+                        <p>Tasa de producción</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Tsu</h3> 
+                        <span>1 h</span> 
+                        <p>Tiempo de Alistamiento</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Tsan</h3> 
+                        <span>10 min</span> 
+                        <p>Tiempo de saneamiento de los equipos en caso de cambio de sabor</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Takt Time - Lima 1.5L</h3> 
+                        <span>1.82 s</span> 
+                        <p>Cadencia de fabricacion de bebida de lima 1.5L</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Takt Time - Toronja 1.75L</h3> 
+                        <span>2.13 s</span> 
+                        <p>Cadencia de fabricacion de bebida de toronja 1.75L</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Takt Time - Cola 2L</h3> 
+                        <span>0.14 s</span> 
+                        <p>Cadencia de fabricacion de bebida de lima 1.5L</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Tc</h3> 
+                        <span>0.18s</span> 
+                        <p>Timepo de Ciclo</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>PC</h3> 
+                        <span>296,666 b/día</span> 
+                        <p>Capacidad de producción</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>MLT</h3> 
+                        <span>4,387.08 s</span> 
+                        <p>Tiempo total de Manufactura</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>A</h3> 
+                        <span>76 %</span> 
+                        <p>Disponibilidad</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Q</h3> 
+                        <span>98 %</span> 
+                        <p>Calidad</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>Ef</h3> 
+                        <span>95 %</span> 
+                        <p>Eficiencia</p> 
+                    </div> 
+                    <div class="indicador"> 
+                        <h3>OEE</h3> 
+                        <span>70 %</span> 
+                        <p>Eficacia General del Equipamiento</p> 
+                    </div> 
+                </div> 
+                <!-- BOTON CALCULOS --> 
+                <div class="btn-calculos-container"> 
+                    <a href="https://github.com/juarojasco/Proyecto-APM---2026-1S/blob/06292e5dd8f31e71af6ea31fc8651c73acfde5a5/Gesti%C3%B3n%20de%20Producci%C3%B3n/Correcci%C3%B3n%20de%20entrega/CalculosCQS.xlsx" 
+                    target="_blank" 
+                    class="btn-calculos"> 
+                    <img src="source/recursos.png"> 
+                    <span>Ver Cálculos de Indicadores</span> 
+                    </a> 
+                </div> 
+            </div> 
+        
             </div>
-        </div>
-
-        <div class="card-grafico">
-            <div class="grafico-header">DAP</div>
-            <div class="grafico-img">
-                <img src="source/dap.png">
-            </div>
-        </div>
-
-        <div class="card-grafico">
-            <div class="grafico-header">Layout</div>
-            <div class="grafico-img">
-                <img src="source/layout.png">
-            </div>
-        </div>
-
-        <div class="card-grafico">
-            <div class="grafico-header">Flujo</div>
-            <div class="grafico-img">
-                <img src="source/flujomaterial.jpeg">
-            </div>
-        </div>
 
     </div>
-
-</div>
-
-<!-- INDICADORES -->
-<div class="section indicadores">
-
-    <h2>Indicadores</h2>
-
-    <div class="grid-indicadores">
-
-        <div class="indicador">
-            <h3>OEE</h3>
-            <span>70%</span>
-            <p>Eficiencia global</p>
-        </div>
-
-        <div class="indicador">
-            <h3>A</h3>
-            <span>76%</span>
-            <p>Disponibilidad</p>
-        </div>
-
-    </div>
-
-</div>
+ </div>
 
 </body>
 </html>
