@@ -6,15 +6,23 @@
 </head>
 <body>
 
-<div class="navbar">
+<!-- NAVBAR -->
+<div class="navbar" id="navbar">
     <div class="logo">
         <img src="source/logo.png">
     </div>
 
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
         <a href="index.html">Inicio</a>
-        <a href="desarrollo.html">Desarrollo</a>
+        <a class="active" href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
     </div>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
 </div>
 
 <div class="section">
@@ -27,54 +35,78 @@
 
 </div>
 
-<!-- PIRAMIDE -->
-<div class="section">
+<!--MODULO 1 --> 
+<div class="section"> 
+        <div class="title-badge"> 
+        MÓDULO 1 
+        </div> 
+        <h2 class="subtitle-proyecto"> 
+        Automatización en Manufactura 
+        </h2> 
+    <!-- ALCANCE PIRAMIDE --> 
+    <div class="section"> 
+        <!-- TITULO --> 
+        <div class="titulo-piramide"> 
+        <img src="source/piramide.png"> 
+        <h2>Alcance en la Pirámide de Automatización</h2> 
+        </div> 
+        <!-- IMAGEN --> 
+        <div class="piramide-img"> 
+        <img src="source/alcancepiramide.jpeg"> 
+        </div> 
+        <!-- TEXTO --> 
+        <div class="piramide-texto"> 
+        <p> 
+        El presente proyecto tiene como objetivo alcanzar el nivel de supervisión dentro de la pirámide de automatización, 
+        específicamente en la capa SCADA (Supervisory Control and Data Acquisition). Este nivel permite la visualización, 
+        monitoreo y control de los procesos industriales en tiempo real, facilitando la toma de decisiones operativas 
+        mediante el uso de interfaces gráficas y sistemas de adquisición de datos. 
+        </p> 
+        <p> 
+        A través de la implementación de herramientas de supervisión, se busca integrar la información proveniente del 
+        sistema productivo, permitiendo identificar desviaciones, analizar el desempeño del proceso y optimizar la 
+        operación de la planta de manera eficiente. 
+        </p> 
+        </div> 
+    </div> 
+    
+    <!-- LINEAS DE PRODUCCION --> 
+    <div class="section gray"> 
+        <!-- TITULO --> 
+        <div class="titulo-linea"> 
+            <img src="source/bebida.png"> 
+            <h2>Líneas de Producción Intervenidas</h2> 
+        </div> 
+        <!-- TEXTO --> 
+        <div class="texto-linea"> 
+            <p> 
+            El alcance del proyecto se enfoca en una línea de producción de bebidas carbonatadas 
+            que integra la fabricación de tres productos diferentes. Esta línea comprende las etapas 
+            de soplado, lavado, secado, revisión, llenado y etiquetado, conformando un sistema 
+            productivo continuo que será objeto de análisis, simulación y propuesta de mejora. 
+            </p> 
+        </div> 
+        <!-- PRODUCTOS --> 
+        <div class="products"> 
+            <div class="product"> 
+                <img class="lima" src="source/lima_1_5L.png"> 
+                <h3 class="lima-title">Bebida de Lima</h3> 
+                <p>1.5L</p> 
+            </div> 
+            <div class="product"> 
+                <img class="toronja" src="source/toronja_1_75L.png"> 
+                <h3 class="toronja-title">Bebida de Toronja</h3> 
+                <p>1.75L</p> 
+            </div> 
+            <div class="product"> 
+                <img class="cola" src="source/cola_2L.png"> 
+                <h3 class="cola-title">Bebida de Cola</h3> 
+                <p>2L</p> 
+            </div> 
+         </div> 
+    </div> 
+</div> 
 
-    <div class="titulo-piramide">
-        <img src="source/piramide.png">
-        <h2>Alcance en la Pirámide de Automatización</h2>
-    </div>
-
-    <div class="piramide-img">
-        <img src="source/alcancepiramide.jpeg">
-    </div>
-
-    <div class="piramide-texto">
-        <p>
-        El proyecto se enfoca en la capa SCADA, permitiendo monitoreo y control en tiempo real.
-        </p>
-    </div>
-
-</div>
-
-<!-- LINEA -->
-<div class="section gray">
-
-    <div class="titulo-linea">
-        <img src="source/bebida.png">
-        <h2>Líneas de Producción</h2>
-    </div>
-
-    <div class="products">
-
-        <div class="product">
-            <img class="lima" src="source/lima_1_5L.png">
-            <h3 class="lima-title">Lima</h3>
-        </div>
-
-        <div class="product">
-            <img class="toronja" src="source/toronja_1_75L.png">
-            <h3 class="toronja-title">Toronja</h3>
-        </div>
-
-        <div class="product">
-            <img class="cola" src="source/cola_2L.png">
-            <h3 class="cola-title">Cola</h3>
-        </div>
-
-    </div>
-
-</div>
 
 </body>
 </html>
