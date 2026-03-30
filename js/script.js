@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
     const closeBtn = document.querySelector(".close");
-    
+
     // Detecta todas las imágenes clickeables
-    document.querySelectorAll(".grafico-img img, .sim-grid img").forEach(img => {
+    document.querySelectorAll(".grafico-img img, .sim-grid img, .paso-card img, .resultado img").forEach(img => {
         img.addEventListener("click", () => {
             lightbox.style.display = "block";
             lightboxImg.src = img.src;
