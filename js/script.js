@@ -15,3 +15,27 @@ window.addEventListener("scroll", () => {
         navbar.classList.remove("scrolled");
     }
 });
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close");
+
+// Detecta todas las imágenes clickeables
+document.querySelectorAll(".sim-grid img").forEach(img => {
+    img.addEventListener("click", () => {
+        lightbox.style.display = "block";
+        lightboxImg.src = img.src;
+    });
+});
+
+// Cerrar
+closeBtn.onclick = () => {
+    lightbox.style.display = "none";
+};
+
+// Cerrar haciendo click afuera
+lightbox.onclick = (e) => {
+    if (e.target === lightbox) {
+        lightbox.style.display = "none";
+    }
+};
