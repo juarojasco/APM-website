@@ -235,6 +235,13 @@ body {
     gap: 80px;
     margin-top: 50px;
     flex-wrap: wrap;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.08); /* agranda un 8% */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 }
 
 @media (max-width: 900px) {
