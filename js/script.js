@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.querySelector(".close");
     
     // Detecta todas las imágenes clickeables
-    document.querySelectorAll(".sim-grid img").forEach(img => {
+    document.querySelectorAll(".grafico-img img, .sim-grid img").forEach(img => {
         img.addEventListener("click", () => {
             lightbox.style.display = "block";
             lightboxImg.src = img.src;
