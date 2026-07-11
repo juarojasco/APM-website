@@ -1953,3 +1953,39 @@ grid-template-columns:1fr;
 }
 
 }
+
+/*=========================================
+        GALERÍA PLC
+=========================================*/
+
+.plc-gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+    margin-top:30px;
+
+}
+
+.plc-gallery img{
+
+    width:100%;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.plc-gallery img:hover{
+
+    transform:scale(1.03);
+
+}
