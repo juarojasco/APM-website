@@ -4,8 +4,9 @@
     <title>JMD-Automations</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
 <div class="navbar" id="navbar">
 
     <div class="logo">
@@ -28,7 +29,7 @@
 
 </div>
 
-<!-- INTRODUCCION SIMULACION -->
+<!-- INTRODUCCIÓN -->
 <div class="section">
 
     <div class="title-badge">
@@ -36,130 +37,57 @@
     </div>
 
     <h2 class="subtitle-proyecto">
-        Simulación del Proceso Productivo
+        Plataformas de Simulación del Proyecto
     </h2>
 
     <p class="text-proyecto">
-        Modelado y simulación de la planta de producción de bebidas carbonatadas 
-        mediante software especializado de simulación industrial.
+        El desarrollo del proyecto integró diferentes herramientas de simulación
+        industrial, cada una enfocada en una etapa específica del proceso de diseño,
+        validación y automatización. En las siguientes secciones podrás explorar los
+        resultados obtenidos en Tecnomatix Plant Simulation, ABB RobotStudio y
+        Siemens NX Mechatronics Concept Designer.
     </p>
 
 </div>
 
-<!-- TECNOMATIX -->
+<!-- MENÚ DE SIMULACIONES -->
 <div class="section gray">
 
-    <div class="card-tecno">
+    <div class="card-simulaciones">
 
-        <!-- HEADER AZUL -->
-        <div class="tecno-header">
+        <h2>
+            Selecciona una plataforma
+        </h2>
 
-            <div class="tecno-left">
-                <img src="source/tecno.png" class="logo-tecno">
+        <p>
+            Haz clic sobre cualquiera de las siguientes plataformas para visualizar
+            el desarrollo completo de la simulación correspondiente.
+        </p>
 
-                <div>
-                    <h2>Tecnomatix Plant Simulation</h2>
-                    <p class="tecno-sub">Siemens Digital Industries Software</p>
-                </div>
-            </div>
+        <div class="sim-buttons">
 
-            <div class="tecno-right">
-                <img src="source/plantsim.png">
-            </div>
+            <a href="PlantSimulation.html" class="btn-simulacion">
+                <img src="source/tecno.png" alt="">
+                <span>Plant Simulation</span>
+            </a>
 
-        </div>
+            <a href="Robot.html" class="btn-simulacion">
+                <img src="source/robotstudio.png" alt="">
+                <span>ABB Robot Studio</span>
+            </a>
 
-        <!-- CONTENIDO -->
-        <div class="tecno-body">
-
-            <h3>¿Qué es Plant Simulation?</h3>
-
-            <p class="tecno-text">
-                Tecnomatix Plant Simulation es un software de simulación de eventos discretos desarrollado por Siemens. 
-                Permite modelar, simular y optimizar sistemas de producción, logística y cadenas de suministro 
-                de manera virtual, antes de realizar cambios en la planta real.
-            </p>
-
-            <!-- CARDS -->
-            <div class="tecno-features">
-
-                <div class="feature">
-                    <h4>Simulación de Eventos Discretos</h4>
-                    <p>Modela el flujo de materiales y recursos en el tiempo</p>
-                </div>
-
-                <div class="feature">
-                    <h4>Análisis Estadístico</h4>
-                    <p>Genera reportes de KPIs, cuellos de botella y utilización</p>
-                </div>
-
-                <div class="feature">
-                    <h4>Optimización Virtual</h4>
-                    <p>Prueba escenarios de mejora sin parar la producción real</p>
-                </div>
-
-            </div>
+            <a href="NX.html" class="btn-simulacion">
+                <img src="source/nx.png" alt="">
+                <span>NX - Siemens</span>
+            </a>
 
         </div>
 
     </div>
 
-</div>
-
-<!-- MODELO SIMULACION -->
-<div class="section">
-
-    <!-- TITULO CON ICONO -->
-    <div class="titulo-sim">
-        <img src="source/sim.png">
-        <h2>Planta de Producción de Bebidas Carbonatadas</h2>
-    </div>
-
-    <!-- CARD GENERAL -->
-    <div class="card-sim">
-
-        <!-- SUBSECCION ACTUAL -->
-        <div class="sim-subsection">
-
-            <div class="sim-header">
-                <h3>Modelo Actual</h3>
-                <span class="badge-red">Situación Actual</span>
-            </div>
-
-            <div class="sim-grid">
-                <img src="source/simuactual2D.png">
-                <img src="source/simuactual3D.png">
-                <img src="source/simuactualgraf.png">
-            </div>
-
-        </div>
-
-        <!-- SUBSECCION PROPUESTA -->
-        <div class="sim-subsection">
-
-            <div class="sim-header">
-                <h3>Modelo con Propuesta</h3>
-                <span class="badge-red">Escenario Mejorado</span>
-            </div>
-
-            <div class="sim-grid">
-                <img src="source/simupost2D.png">
-                <img src="source/simupost3D.jpeg">
-                <img src="source/simupostgraf.png">
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div id="lightbox" class="lightbox">
-    <span class="close">&times;</span>
-    <img class="lightbox-content" id="lightbox-img">
 </div>
 
 <script src="js/script.js"></script>
-    
+
 </body>
 </html>
