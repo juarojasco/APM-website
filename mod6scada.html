@@ -1,3 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Módulo 6</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar" id="navbar">
+    <div class="logo">
+        <img src="source/logo.png">
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
+</div>
+
+<!-- CONTENIDO -->
+
 <div class="section">
 
     <div class="title-badge">
@@ -13,10 +43,10 @@
         Controladores Lógicos Programables (PLC) y sistemas SCADA, integrando
         aspectos de programación, supervisión, comunicación industrial y evaluación
         económica de proyectos de automatización. Los recursos presentados permiten
-        comprender el proceso completo, desde el diseño del sistema de control
-        hasta su implementación en un entorno industrial, favoreciendo la
-        interoperabilidad entre equipos y la supervisión eficiente de los procesos
-        productivos.
+        comprender el proceso completo, desde el diseño del sistema de control hasta
+        su implementación en un entorno industrial, favoreciendo la interoperabilidad
+        entre equipos, la adquisición de datos y la supervisión eficiente de los
+        procesos productivos.
     </p>
 
 </div>
@@ -29,12 +59,13 @@
 
     <p class="section-subtitle">
         Como aplicación práctica de los conceptos desarrollados en el módulo, se
-        implementó un sistema de supervisión y monitoreo utilizando Node-RED,
-        permitiendo la integración de la información proveniente de la línea de
-        producción. La interfaz desarrollada facilita la visualización del estado
-        del proceso, el monitoreo de variables en tiempo real y la interacción con
-        el sistema de automatización, constituyendo un ejemplo de integración entre
-        tecnologías de control, comunicación industrial y supervisión.
+        implementó un sistema de supervisión y monitoreo mediante <strong>Node-RED</strong>,
+        integrando la información proveniente del sistema de automatización y permitiendo
+        la visualización del estado de la línea de producción en tiempo real. La solución
+        desarrollada incorpora herramientas de comunicación industrial, gestión de datos e
+        interfaces gráficas para facilitar el seguimiento del proceso, la interacción con
+        los dispositivos de campo y el análisis del desempeño de la planta, constituyendo
+        un ejemplo de integración hasta el nivel <strong>MES (Manufacturing Execution System)</strong>.
     </p>
 
     <div style="margin-top:40px; text-align:center;">
@@ -46,3 +77,33 @@
     </div>
 
 </div>
+
+<!-- NAVEGACIÓN ENTRE MÓDULOS -->
+
+<div class="nav-modulos">
+
+    <a href="mod5tecnologia.html" class="btn-nav azul">
+        Módulo anterior
+    </a>
+
+    <a href="desarrollo.html" class="btn-nav rojo">
+        Ver módulos
+    </a>
+
+    <a href="#" class="btn-nav disabled">
+        Módulo siguiente
+    </a>
+
+</div>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
