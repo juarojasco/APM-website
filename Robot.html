@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JMD-Automations</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="navbar" id="navbar">
+
+    <div class="logo">
+        <img src="source/logo.png" alt="JMS-Automations">
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a class="active" href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+</div>
+
+<!-- INTRODUCCIÓN -->
+
+<div class="section">
+
+    <div class="title-badge">
+        SIMULACIÓN ROBÓTICA
+    </div>
+
+    <h2 class="subtitle-proyecto">
+        Celda Robotizada de Paletizado
+    </h2>
+
+    <p class="text-proyecto">
+        Para validar el proceso automatizado de empaque se desarrolló una simulación
+        robótica utilizando ABB RobotStudio. Esta herramienta permitió verificar la
+        programación, trayectorias y tiempos de operación del robot industrial antes
+        de una posible implementación física.
+    </p>
+
+</div>
+
+<!-- ROBOTSTUDIO -->
+
+<div class="section gray">
+
+    <div class="card-tecno">
+
+        <div class="tecno-header">
+
+            <div class="tecno-left">
+
+                <img src="source/robotstudio.png" class="logo-tecno">
+
+                <div>
+                    <h2>ABB RobotStudio</h2>
+                    <p class="tecno-sub">
+                        ABB Robotics
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="tecno-right">
+                <img src="source/abb.png">
+            </div>
+
+        </div>
+
+        <div class="tecno-body">
+
+            <h3>¿Qué es ABB RobotStudio?</h3>
+
+            <p class="tecno-text">
+                ABB RobotStudio es un software de programación y simulación fuera de línea
+                (Offline Programming) desarrollado por ABB Robotics. Permite crear,
+                programar, validar y optimizar celdas robotizadas utilizando gemelos
+                digitales, reduciendo tiempos de puesta en marcha y minimizando riesgos
+                antes de implementar el sistema en planta.
+            </p>
+
+            <div class="tecno-features">
+
+                <div class="feature">
+                    <h4>Programación Offline</h4>
+                    <p>Desarrollo y validación de programas RAPID sin detener la producción.</p>
+                </div>
+
+                <div class="feature">
+                    <h4>Simulación 3D</h4>
+                    <p>Verificación de trayectorias, colisiones y alcance del robot.</p>
+                </div>
+
+                <div class="feature">
+                    <h4>Optimización</h4>
+                    <p>Evaluación de tiempos de ciclo y mejoras antes de la implementación.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODELO -->
+
+<div class="section">
+
+    <div class="titulo-sim">
+        <img src="source/robot.png">
+        <h2>Celda de Paletizado de Sixpacks</h2>
+    </div>
+
+    <p class="text-proyecto" style="margin-bottom:40px;">
+        La simulación representa una celda robotizada encargada del paletizado de
+        sixpacks de bebidas carbonatadas de 1.5 litros. Para esta tarea se empleó
+        un robot industrial <strong>ABB IRB 460</strong>, reconocido por su alta
+        velocidad en aplicaciones de pick and place y paletizado. Durante la
+        simulación se validó el ciclo completo de toma, transporte y ubicación de
+        los paquetes sobre el pallet, verificando trayectorias, tiempos de ciclo
+        y ausencia de colisiones.
+    </p>
+
+    <div class="card-sim">
+
+        <div class="sim-subsection">
+
+            <div class="sim-header">
+
+                <h3>Modelo Robotizado</h3>
+
+                <span class="badge-red">
+                    ABB IRB 460
+                </span>
+
+            </div>
+
+            <div class="sim-grid">
+
+                <img src="source/robot2d.png">
+
+                <img src="source/robot3d.png">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- VIDEO -->
+
+<div class="section gray">
+
+    <div class="titulo-sim">
+
+        <img src="source/video.png">
+
+        <h2>
+            Simulación en Movimiento
+        </h2>
+
+    </div>
+
+    <div class="video-card">
+
+        <video controls>
+
+            <source src="source/robotvideo.mp4" type="video/mp4">
+
+            Tu navegador no soporta video HTML5.
+
+        </video>
+
+    </div>
+
+</div>
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img class="lightbox-content" id="lightbox-img">
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
