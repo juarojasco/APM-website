@@ -2055,19 +2055,13 @@ grid-template-columns:1fr;
 
     border-radius:15px;
 
-    padding:30px;
+    padding:35px;
 
-    margin:35px 0;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    gap:30px;
+    margin:40px auto;
 
     box-shadow:0 5px 18px rgba(0,0,0,.10);
+
+    max-width:1200px;
 
 }
 
@@ -2079,17 +2073,31 @@ grid-template-columns:1fr;
 
 .document-info h3{
 
-    color:#003366;
+    text-align:center;
 
-    margin-bottom:15px;
+    margin-bottom:20px;
 
 }
 
 .document-info p{
 
-    color:#555;
+    text-align:justify;
 
     line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.document-card .btn-nav{
+
+    display:inline-block;
+
+}
+
+.document-button{
+
+    text-align:center;
 
 }
 
