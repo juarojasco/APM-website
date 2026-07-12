@@ -1989,3 +1989,58 @@ grid-template-columns:1fr;
     transform:scale(1.03);
 
 }
+
+
+/*=========================================
+        TEXTO EXPANDIBLE
+=========================================*/
+
+.texto-expandible{
+
+    margin-bottom:30px;
+
+}
+
+.texto-corto{
+
+    max-height:90px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    transition:max-height .4s ease;
+
+}
+
+.texto-corto.expandido{
+
+    max-height:3000px;
+
+}
+
+.btn-expandir{
+
+    margin-top:12px;
+
+    background:none;
+
+    border:none;
+
+    color:#0b5ed7;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    padding:0;
+
+}
+
+.btn-expandir:hover{
+
+    text-decoration:underline;
+
+}
