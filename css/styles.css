@@ -2046,87 +2046,62 @@ grid-template-columns:1fr;
 }
 
 /*=========================================
-      DOCUMENTOS PLC
+        TARJETAS DE DOCUMENTOS
 =========================================*/
 
 .document-card{
 
-    background:#fff;
+    background:#ffffff;
 
-    border-radius:15px;
-
-    padding:35px;
+    max-width:1100px;
 
     margin:40px auto;
 
-    box-shadow:0 5px 18px rgba(0,0,0,.10);
+    padding:35px;
 
-    max-width:1200px;
+    border-radius:15px;
 
-}
-
-.document-info{
-
-    flex:1;
-
-}
-
-.document-info h3{
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
 
     text-align:center;
 
+}
+
+.document-card h3{
+
+    color:#003366;
+
     margin-bottom:20px;
+
+    font-size:30px;
 
 }
 
-.document-info p{
+.document-card p{
 
     text-align:justify;
 
     line-height:1.8;
 
+    color:#444;
+
     margin-bottom:30px;
 
 }
-
-.document-card .btn-nav{
-
-    display:inline-block;
-
-}
-
-.document-button{
-
-    text-align:center;
-
-}
-
-@media(max-width:900px){
-
-.document-card{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
-}
-
 
 .btn-documento{
 
     display:inline-block;
 
+    padding:14px 30px;
+
     background:#ef2d52;
 
-    color:white;
-
-    padding:14px 28px;
-
-    border-radius:10px;
+    color:#fff;
 
     text-decoration:none;
+
+    border-radius:10px;
 
     font-weight:600;
 
@@ -2136,7 +2111,7 @@ grid-template-columns:1fr;
 
 .btn-documento:hover{
 
-    background:#d51f43;
+    background:#d61e45;
 
     transform:translateY(-2px);
 
