@@ -2112,3 +2112,32 @@ grid-template-columns:1fr;
 }
 
 }
+
+
+.btn-documento{
+
+    display:inline-block;
+
+    background:#ef2d52;
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-documento:hover{
+
+    background:#d51f43;
+
+    transform:translateY(-2px);
+
+}
