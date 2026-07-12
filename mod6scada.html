@@ -64,41 +64,29 @@
         presentan los principales documentos y diagramas desarrollados durante el proyecto.
     </p>
 
-    <!-- ================= FILOSOFÍA ================= -->
+<!-- ================= FILOSOFÍA ================= -->
 
 <div class="document-card">
 
-    <div class="document-info">
+    <h3>Filosofía de Control</h3>
 
-        <h3>Filosofía de Control</h3>
+    <p>
+        La filosofía de control define la arquitectura general del sistema de
+        automatización implementado para la línea de producción de bebidas
+        carbonatadas. El PLC Allen-Bradley, programado en Studio 5000, actúa
+        como controlador principal, coordinando las diferentes estaciones,
+        administrando las recetas de producción, supervisando los enclavamientos
+        de seguridad y gestionando la comunicación con las plataformas de
+        simulación y supervisión. La estrategia de control se basa en un GRAFCET
+        maestro implementado en lenguaje Ladder, favoreciendo una estructura
+        modular, escalable y de fácil mantenimiento.
+    </p>
 
-        <p>
-            La filosofía de control define la arquitectura general del sistema de
-            automatización implementado para la línea de producción de bebidas
-            carbonatadas. El PLC Allen-Bradley, programado en Studio 5000, actúa
-            como controlador principal, coordinando las diferentes estaciones,
-            administrando las recetas de producción, supervisando los enclavamientos
-            de seguridad y gestionando la comunicación con las plataformas de
-            simulación y supervisión. La estrategia de control se basa en un GRAFCET
-            maestro implementado en lenguaje Ladder, desde el cual se habilitan las
-            rutinas independientes de cada estación, favoreciendo una estructura
-            modular, escalable y de fácil mantenimiento. Asimismo, la arquitectura
-            contempla la integración con Siemens NX, ABB RobotStudio, Ignition,
-            Node-RED y Azure, permitiendo extender la automatización hasta el nivel
-            MES para la supervisión y análisis del proceso.
-        </p>
-
-    </div>
-
-    <div class="document-button">
-
-        <a href="documentos/filosofia.pdf"
-           target="_blank"
-           class="btn-documento">
-            Ver documento completo
-        </a>
-
-    </div>
+    <a href="documentos/FilosofiaControl.pdf"
+       target="_blank"
+       class="btn-documento">
+        Ver documento completo
+    </a>
 
 </div>
 
@@ -106,34 +94,24 @@
 
 <div class="document-card">
 
-    <div class="document-info">
+    <h3>Narrativa de Control</h3>
 
-        <h3>Narrativa de Control</h3>
+    <p>
+        La narrativa de control describe la secuencia completa de operación de la
+        línea automatizada, desde la inicialización del PLC hasta el embalaje
+        final del pallet. Durante el proceso se coordinan las estaciones de
+        llenado, tapado, inspección, etiquetado, formación de sixpacks,
+        paletizado robotizado y embalaje, además del manejo de fallas, registro
+        de producción e integración con los sistemas SCADA y MES.
+    </p>
 
-        <p>
-            La narrativa de control describe la secuencia completa de operación de la
-            línea automatizada, desde la inicialización del PLC y la selección de la
-            receta de producción hasta el embalaje final del pallet. Durante el
-            proceso se coordinan las estaciones de llenado, tapado, inspección,
-            etiquetado, formación de sixpacks, paletizado robotizado y embalaje,
-            garantizando la sincronización entre sensores y actuadores. Además, se
-            establece la gestión de fallas, rechazos de calidad, registro de
-            producción y comunicación con los sistemas SCADA y MES, permitiendo una
-            operación segura, modular y completamente supervisada mediante el gemelo
-            digital desarrollado para el proyecto.
-        </p>
+    <a href="documentos/NarrativaControl.pdf"
+       target="_blank"
+       class="btn-documento">
+        Ver documento completo
+    </a>
 
-    </div>
-
-    <div class="document-button">
-
-        <a href="documentos/narrativa.pdf"
-           target="_blank"
-           class="btn-documento">
-            Ver documento completo
-        </a>
-
-    </div>
+</div>
 
 </div>
     <!-- ================= GRAFCET ================= -->
