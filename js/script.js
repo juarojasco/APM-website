@@ -41,3 +41,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 });
+
+function toggleTexto(id, boton){
+
+    const texto = document.getElementById(id);
+
+    texto.classList.toggle("expandido");
+
+    if(texto.classList.contains("expandido")){
+
+        boton.textContent = "Leer menos";
+
+    }else{
+
+        boton.textContent = "Leer más";
+
+    }
+
+}
