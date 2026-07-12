@@ -2044,3 +2044,63 @@ grid-template-columns:1fr;
     text-decoration:underline;
 
 }
+
+/*=========================================
+      DOCUMENTOS PLC
+=========================================*/
+
+.document-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    margin:35px 0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:30px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.10);
+
+}
+
+.document-info{
+
+    flex:1;
+
+}
+
+.document-info h3{
+
+    color:#003366;
+
+    margin-bottom:15px;
+
+}
+
+.document-info p{
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.document-card{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+}
