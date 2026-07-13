@@ -2116,3 +2116,39 @@ grid-template-columns:1fr;
     transform:translateY(-2px);
 
 }
+
+/*=========================================
+            BOTÓN MES
+=========================================*/
+
+.btn-documento{
+
+    display:inline-block;
+
+    background:#ef2d52;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:16px 36px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.btn-documento:hover{
+
+    background:#d51f43;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 6px 15px rgba(0,0,0,.18);
+
+}
