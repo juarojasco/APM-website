@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JMD-Automations</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="navbar" id="navbar">
+
+    <div class="logo">
+        <img src="source/logo.png" alt="JMS-Automations">
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a class="active" href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+</div>
+
+<!-- INTRODUCCIÓN -->
+
+<div class="section">
+
+    <div class="title-badge">
+        SISTEMA SCADA
+    </div>
+
+    <h2 class="subtitle-proyecto">
+        Integración mediante Node-RED
+    </h2>
+
+    <p class="text-proyecto">
+        Para integrar los diferentes componentes del proyecto se desarrolló una
+        arquitectura de comunicación utilizando <strong>Node-RED</strong>, plataforma
+        que actúa como middleware entre el PLC, el Gemelo Digital, la simulación
+        robótica y los sistemas de supervisión. Como resultado de esta integración
+        se implementó un sistema SCADA que permite monitorear el estado de la línea
+        de producción en tiempo real, visualizar indicadores de desempeño y gestionar
+        alarmas desde una interfaz centralizada.
+    </p>
+
+</div>
+
+<!-- NODERED -->
+
+<div class="section gray">
+
+    <div class="card-tecno">
+
+        <div class="tecno-header">
+
+            <div class="tecno-left">
+
+                <img src="source/noderedlogo.png" class="logo-tecno">
+
+                <div>
+                    <h2>Node-RED</h2>
+                    <p class="tecno-sub">
+                        Middleware de Integración
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="tecno-right">
+                <img src="source/nodered.png">
+            </div>
+
+        </div>
+
+        <div class="tecno-body">
+
+            <h3>¿Qué es Node-RED?</h3>
+
+            <p class="tecno-text">
+
+                Node-RED es una plataforma de programación basada en flujos que
+                facilita la comunicación entre dispositivos, aplicaciones y servicios.
+                En este proyecto se empleó para integrar el PLC, Siemens NX,
+                ABB RobotStudio, Azure y el sistema SCADA, permitiendo el intercambio
+                de información en tiempo real y la supervisión centralizada de la
+                línea automatizada.
+
+            </p>
+
+            <div class="tecno-features">
+
+                <div class="feature">
+                    <h4>Integración</h4>
+                    <p>Comunicación entre PLC, simuladores, bases de datos y servicios externos.</p>
+                </div>
+
+                <div class="feature">
+                    <h4>Procesamiento</h4>
+                    <p>Gestión de variables, eventos y flujo de información del proceso.</p>
+                </div>
+
+                <div class="feature">
+                    <h4>Supervisión</h4>
+                    <p>Base para la implementación del sistema SCADA y monitoreo en tiempo real.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FLUJO -->
+
+<div class="section">
+
+    <div class="titulo-sim">
+
+        <img src="source/flujoicon.png">
+
+        <h2>
+            Flujo de Integración
+        </h2>
+
+    </div>
+
+    <p class="text-proyecto" style="margin-bottom:40px;">
+
+        El siguiente flujo representa la arquitectura implementada en Node-RED para
+        gestionar el intercambio de información entre el PLC, Siemens NX,
+        ABB RobotStudio, Azure y el sistema SCADA, centralizando la comunicación
+        entre todos los componentes del proyecto.
+
+    </p>
+
+    <div class="card-sim">
+
+        <div class="sim-subsection">
+
+            <img src="source/flujo.png" style="width:100%; border-radius:10px;">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SCADA -->
+
+<div class="section gray">
+
+    <div class="titulo-sim">
+
+        <img src="source/scadaicon.png">
+
+        <h2>
+            Sistema SCADA
+        </h2>
+
+    </div>
+
+    <p class="text-proyecto" style="margin-bottom:40px;">
+
+        El sistema SCADA desarrollado permite supervisar el funcionamiento de la
+        línea automatizada mediante tres pantallas especializadas, proporcionando
+        información del proceso en tiempo real, alarmas, indicadores de desempeño
+        y tendencias históricas.
+
+    </p>
+
+    <div class="card-sim">
+
+        <div class="sim-subsection">
+
+            <div class="sim-header">
+
+                <h3>Pantallas del Sistema</h3>
+
+                <span class="badge-red">
+                    SCADA
+                </span>
+
+            </div>
+
+            <div class="sim-grid">
+
+                <div>
+
+                    <img src="source/general.png">
+
+                    <h4 style="margin-top:15px;">Pantalla General</h4>
+
+                    <p>
+                        Visualización del estado global de la línea, producción,
+                        indicadores en tiempo real y alarmas.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <img src="source/proceso.png">
+
+                    <h4 style="margin-top:15px;">Pantalla de Proceso</h4>
+
+                    <p>
+                        Mímico del proceso con estados de cada estación,
+                        flujo de producción y alarmas activas.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <img src="source/historico.png">
+
+                    <h4 style="margin-top:15px;">Pantalla Histórica</h4>
+
+                    <p>
+                        Tendencias de las últimas 24 horas, producción,
+                        defectos e indicadores históricos.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- VIDEO -->
+
+<div class="section">
+
+    <div class="titulo-sim">
+
+        <img src="source/sim.png">
+
+        <h2>
+            Funcionamiento del Sistema SCADA
+        </h2>
+
+    </div>
+
+    <div class="video-card">
+
+        <video controls>
+
+            <source src="source/scada.mp4" type="video/mp4">
+
+            Tu navegador no soporta video HTML5.
+
+        </video>
+
+    </div>
+
+</div>
+
+<!-- OBJETIVO -->
+
+<div class="section gray">
+
+    <h2 class="section-title">
+        Objetivo de la Integración
+    </h2>
+
+    <p class="text-proyecto">
+
+        La integración desarrollada mediante Node-RED y el sistema SCADA permite
+        centralizar la información generada por todos los componentes del proyecto,
+        facilitando la supervisión, el monitoreo y el análisis del proceso de
+        manufactura. Esta arquitectura constituye la base de la solución de
+        Industria 4.0 implementada, al conectar el Gemelo Digital, el PLC,
+        la celda robotizada y las herramientas de análisis para proporcionar
+        información en tiempo real que apoye la toma de decisiones y la gestión
+        de la producción.
+
+    </p>
+
+</div>
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img class="lightbox-content" id="lightbox-img">
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
