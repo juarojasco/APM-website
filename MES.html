@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JMD-Automations</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="navbar" id="navbar">
+
+    <div class="logo">
+        <img src="source/logo.png" alt="JMS-Automations">
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Inicio</a>
+        <a href="introduccion.html">Introducción</a>
+        <a href="desarrollo.html">Desarrollo Modular</a>
+        <a class="active" href="simulacion.html">Simulación</a>
+        <a href="propuesta.html">Propuesta</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="recursos.html">Recursos</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+</div>
+
+<!-- INTRODUCCIÓN -->
+
+<div class="section">
+
+    <div class="title-badge">
+        SISTEMA MES
+    </div>
+
+    <h2 class="subtitle-proyecto">
+        Manufacturing Execution System
+    </h2>
+
+    <p class="text-proyecto">
+
+        Como nivel superior de la arquitectura de automatización se desarrolló un
+        <strong>Manufacturing Execution System (MES)</strong>, encargado de consolidar
+        la información proveniente del proceso productivo y transformarla en
+        indicadores de desempeño para apoyar la toma de decisiones. El sistema
+        permite visualizar en tiempo real el estado de la producción y calcular
+        automáticamente el indicador OEE a partir de la información recibida desde
+        la planta.
+
+    </p>
+
+</div>
+
+<!-- TECNOLOGÍA -->
+
+<div class="section gray">
+
+    <div class="card-tecno">
+
+        <div class="tecno-header">
+
+            <div class="tecno-left">
+
+                <img src="source/mes.png" class="logo-tecno">
+
+                <div>
+
+                    <h2>Manufacturing Execution System</h2>
+
+                    <p class="tecno-sub">
+                        React.js · Node.js · Microsoft Azure
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="tecno-body">
+
+            <h3>Arquitectura del Sistema</h3>
+
+            <p class="tecno-text">
+
+                El sistema MES fue desarrollado utilizando
+                <strong>React.js</strong> para la interfaz de usuario y
+                <strong>Node.js</strong> para los servicios del servidor.
+                Toda la información se almacena en una base de datos
+                <strong>Microsoft SQL Server</strong> alojada en
+                <strong>Microsoft Azure</strong>, permitiendo el acceso
+                centralizado desde las diferentes aplicaciones del proyecto.
+
+            </p>
+
+            <div class="tecno-features">
+
+                <div class="feature">
+
+                    <h4>Frontend</h4>
+
+                    <p>
+                        Dashboard interactivo desarrollado en React.js para la
+                        visualización de indicadores de producción.
+                    </p>
+
+                </div>
+
+                <div class="feature">
+
+                    <h4>Backend</h4>
+
+                    <p>
+                        Servicios desarrollados en Node.js para gestionar la
+                        comunicación con la base de datos y el procesamiento
+                        de la información.
+                    </p>
+
+                </div>
+
+                <div class="feature">
+
+                    <h4>Base de Datos</h4>
+
+                    <p>
+                        Microsoft SQL Server hospedado en Azure como punto
+                        central de almacenamiento e intercambio de datos.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FUNCIONAMIENTO -->
+
+<div class="section">
+
+    <div class="titulo-sim">
+
+        <img src="source/database.png">
+
+        <h2>
+            Integración con la Planta
+        </h2>
+
+    </div>
+
+    <p class="text-proyecto">
+
+        Ignition actualiza continuamente la información operativa de la línea de
+        producción dentro del servidor SQL en Azure, registrando variables como
+        el estado de la maquinaria, eficiencia de operación, cantidad actual de
+        botellas producidas y la meta de producción establecida.
+
+    </p>
+
+    <p class="text-proyecto">
+
+        El sistema MES consulta esta información en tiempo real para calcular el
+        indicador <strong>Overall Equipment Effectiveness (OEE)</strong>, integrando
+        automáticamente los valores de disponibilidad, desempeño y calidad en un
+        único indicador que resume la eficiencia global del proceso productivo.
+
+    </p>
+
+    <p class="text-proyecto">
+
+        Adicionalmente, Ignition puede modificar directamente el indicador de
+        calidad almacenado en la base de datos SQL. Una vez actualizado este
+        valor, el MES recalcula el OEE y actualiza automáticamente los gráficos
+        e indicadores mostrados en el dashboard.
+
+    </p>
+
+</div>
+
+<!-- DASHBOARD -->
+
+<div class="section gray">
+
+    <h2 class="section-title">
+        Dashboard MES
+    </h2>
+
+    <p class="section-subtitle">
+
+        El sistema desarrollado puede consultarse mediante la siguiente aplicación
+        web desplegada en Microsoft Azure.
+
+    </p>
+
+    <div style="text-align:center; margin-top:40px;">
+
+        <a href="https://blue-coast-0ae297c10.7.azurestaticapps.net/"
+           target="_blank"
+           class="btn-documento">
+
+            Acceder al Dashboard MES
+
+        </a>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
