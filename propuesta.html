@@ -4,8 +4,11 @@
     <title>JMD-Automations</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
+<!-- NAVBAR -->
+
 <div class="navbar" id="navbar">
 
     <div class="logo">
@@ -14,7 +17,7 @@
 
     <div class="nav-links" id="navLinks">
         <a href="index.html">Inicio</a>
-        <a href="desarrollo.html">Introducción</a>
+        <a href="introduccion.html">Introducción</a>
         <a href="desarrollo.html">Desarrollo Modular</a>
         <a href="simulacion.html">Simulación</a>
         <a class="active" href="propuesta.html">Propuesta</a>
@@ -22,45 +25,65 @@
         <a href="recursos.html">Recursos</a>
     </div>
 
-    <!-- BOTÓN HAMBURGUESA -->
     <div class="menu-toggle" id="menuToggle">
         ☰
     </div>
 
 </div>
 
-<!-- INTRODUCCION PROPUESTA -->
+<!-- INTRODUCCIÓN -->
+
 <div class="section">
 
     <div class="title-badge">
         PROPUESTA DE MEJORA
     </div>
 
-
     <p class="text-proyecto">
-        Solución técnica propuesta para resolver las ineficiencias identificadas 
-        en la línea de producción de bebidas carbonatadas.
+
+        La propuesta busca complementar la infraestructura de automatización
+        existente mediante la incorporación de tecnologías de Industria 4.0,
+        integrando robótica industrial, gemelos digitales y sistemas MES para
+        incrementar la productividad, mejorar la supervisión del proceso y
+        fortalecer la toma de decisiones basada en datos.
+
     </p>
 
 </div>
 
 <!-- PROBLEMA -->
+
 <div class="section gray">
 
     <div class="card-problema">
 
         <div class="card-header">
-            <img src="source/peligro.png" alt="icono peligro">
+
+            <img src="source/peligro.png">
+
             <h3>Problema Identificado</h3>
+
         </div>
 
         <p>
-        La línea de producción presenta baja disponibilidad debido a paradas no planificadas 
-        y tiempos prolongados de inactividad. Estas interrupciones afectan la continuidad del proceso, 
-        reduciendo la eficiencia global (OEE) y la capacidad productiva.
-        
-        El problema se centra en mejorar la disponibilidad mediante la reducción de tiempos de parada 
-        y la implementación de herramientas de monitoreo y control que permitan una operación más estable.
+
+            La línea de producción dispone de un sistema de control basado en PLC y
+            una plataforma SCADA para la supervisión del proceso. Sin embargo,
+            todavía existen oportunidades de mejora relacionadas con la
+            automatización de las operaciones finales de la línea, la integración
+            entre los diferentes niveles de automatización y el aprovechamiento de
+            la información generada durante la producción.
+
+        </p>
+
+        <p>
+
+            Además, la ausencia de un Gemelo Digital y de un sistema MES limita la
+            capacidad para validar modificaciones antes de su implementación,
+            calcular indicadores de desempeño de manera centralizada y disponer de
+            información consolidada para apoyar la toma de decisiones en tiempo
+            real.
+
         </p>
 
     </div>
@@ -68,114 +91,236 @@
 </div>
 
 <!-- CONSECUENCIAS -->
+
 <div class="section gray">
 
-    <!-- TITULO -->
     <div class="titulo-consecuencias">
+
         <img src="source/consecuencia.png">
+
         <h2>Consecuencias del Problema</h2>
+
     </div>
 
-    <!-- LISTA -->
     <div class="lista-consecuencias">
 
         <div class="item-consecuencia">
             <div class="num-conseq">1</div>
-            <p>Disminución de la capacidad productiva debido a paradas no planificadas.</p>
+            <p>Procesos finales con menor nivel de automatización, especialmente durante el paletizado.</p>
         </div>
-    
+
         <div class="item-consecuencia">
             <div class="num-conseq">2</div>
-            <p>Reducción del OEE, especialmente en el componente de disponibilidad.</p>
+            <p>Información de producción distribuida entre diferentes plataformas sin una integración completa.</p>
         </div>
-    
+
         <div class="item-consecuencia">
             <div class="num-conseq">3</div>
-            <p>Incremento de los costos operativos por tiempos de inactividad y pérdidas de producción.</p>
+            <p>Dificultad para calcular y analizar el OEE de manera centralizada y en tiempo real.</p>
         </div>
-    
+
         <div class="item-consecuencia">
             <div class="num-conseq">4</div>
-            <p>Incumplimiento en los tiempos de entrega y afectación del nivel de servicio.</p>
+            <p>Mayor riesgo durante modificaciones del proceso al no disponer de un Gemelo Digital para validación.</p>
         </div>
-    
+
         <div class="item-consecuencia">
             <div class="num-conseq">5</div>
-            <p>Disminución de la confiabilidad del sistema productivo y mayor incertidumbre operativa.</p>
+            <p>Menor disponibilidad de información para apoyar la toma de decisiones operativas y estratégicas.</p>
         </div>
-    
+
     </div>
 
 </div>
 
-<!-- PROPUESTA DE MEJORA -->
+<!-- PROPUESTA -->
+
 <div class="section">
 
-    <!-- TITULO -->
     <div class="titulo-propuesta">
+
         <img src="source/idea.png">
+
         <h2>Propuesta de Mejora</h2>
+
     </div>
 
-    <!-- CONTENIDO -->
     <div class="contenido-propuesta">
 
         <p>
-        La propuesta de mejora inicia con una etapa de preautomatización basada en la implementación de 
-        metodologías TPM (Mantenimiento Productivo Total) y 5S, con el objetivo de fortalecer la confiabilidad 
-        operativa y reducir las paradas no planificadas en la línea de producción.
+
+            La propuesta consiste en complementar la infraestructura existente
+            mediante la incorporación de tecnologías de Industria 4.0 orientadas a
+            incrementar la eficiencia operativa y mejorar la integración entre los
+            diferentes niveles de automatización de la planta.
+
         </p>
-        
+
         <p>
-        Sobre esta base, se plantea la integración de una celda de paletizado robótico y sistemas de transporte 
-        autónomo mediante robots móviles (AMR), orientados a optimizar el flujo de producto hacia las áreas de 
-        almacenamiento y despacho, incrementando la productividad del sistema.
+
+            Como primera mejora se plantea la incorporación de una celda robotizada
+            de paletizado basada en un robot industrial ABB IRB 460, automatizando
+            la manipulación del producto terminado y reduciendo las operaciones
+            manuales en la etapa final de la línea.
+
         </p>
-        
+
         <p>
-        Adicionalmente, estas tecnologías contribuyen a mejorar las condiciones laborales al reducir tareas de 
-        alto esfuerzo físico, al tiempo que permiten mantener la continuidad operativa frente a la creciente 
-        escasez de mano de obra en el sector industrial.
+
+            Adicionalmente, se desarrolla un Gemelo Digital utilizando Siemens NX
+            Mechatronics Concept Designer junto con herramientas de simulación
+            industrial para validar la lógica de control, verificar el
+            comportamiento del sistema y evaluar modificaciones antes de su
+            implementación física.
+
+        </p>
+
+        <p>
+
+            Finalmente, se incorpora un sistema MES desarrollado en React.js y
+            Node.js, conectado a una base de datos SQL alojada en Microsoft Azure.
+            Este sistema se integra con el SCADA existente para consolidar la
+            información de producción, calcular automáticamente el indicador OEE y
+            proporcionar paneles de supervisión y análisis en tiempo real.
+
         </p>
 
     </div>
 
 </div>
 
-<!-- IMPACTO ESPERADO -->
+<!-- AGREGADOS DE VALOR -->
+
 <div class="section gray">
 
-    <!-- TITULO -->
-    <div class="titulo-impacto">
-        <img src="source/impacto.png">
-        <h2>Impacto Esperado</h2>
+    <div class="titulo-propuesta">
+
+        <img src="source/idea.png">
+
+        <h2>Agregados de Valor</h2>
+
     </div>
 
-    <!-- GRID -->
     <div class="grid-impacto">
 
-        <!-- CARD 1 -->
-        <div class="impacto-card verde">
-            <h3>- 15 %</h3>
-            <p>Reducción del WIP</p>
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="impacto-card azul">
-            <h3>+ 10 %</h3>
-            <p>Mejora del OEE</p>
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="impacto-card amarillo">
-            <h3>- 10 %</h3>
-            <p>Reducción de tiempos de parada</p>
-        </div>
-
-        <!-- CARD 4 -->
         <div class="impacto-card rojo">
-            <h3>↑</h3>
-            <p>Mejora en la estabilidad operativa</p>
+
+            <h3>Celda Robotizada</h3>
+
+            <p>
+
+                Automatización del proceso de paletizado mediante un robot
+                industrial ABB IRB 460.
+
+            </p>
+
+            <a href="Robot.html" class="btn-nav rojo" style="margin-top:20px;">
+                Ver RobotStudio
+            </a>
+
+        </div>
+
+        <div class="impacto-card azul">
+
+            <h3>Gemelo Digital</h3>
+
+            <p>
+
+                Validación virtual de la línea de producción utilizando Siemens NX
+                Mechatronics Concept Designer.
+
+            </p>
+
+            <a href="NX.html" class="btn-nav azul" style="margin-top:20px;">
+                Ver Gemelo Digital
+            </a>
+
+        </div>
+
+        <div class="impacto-card verde">
+
+            <h3>Sistema MES</h3>
+
+            <p>
+
+                Gestión de indicadores de producción y cálculo automático del OEE
+                mediante una plataforma web conectada a Azure SQL.
+
+            </p>
+
+            <a href="MES.html" class="btn-nav verde" style="margin-top:20px;">
+                Ver Sistema MES
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- IMPACTO -->
+
+<div class="section">
+
+    <div class="titulo-impacto">
+
+        <img src="source/impacto.png">
+
+        <h2>Impacto Esperado</h2>
+
+    </div>
+
+    <div class="grid-impacto">
+
+        <div class="impacto-card verde">
+
+            <h3>Automatización</h3>
+
+            <p>
+
+                Reducción de operaciones manuales mediante la incorporación de la
+                celda robotizada.
+
+            </p>
+
+        </div>
+
+        <div class="impacto-card azul">
+
+            <h3>Gemelo Digital</h3>
+
+            <p>
+
+                Validación de cambios y optimización del proceso antes de su
+                implementación física.
+
+            </p>
+
+        </div>
+
+        <div class="impacto-card amarillo">
+
+            <h3>MES</h3>
+
+            <p>
+
+                Monitoreo continuo de producción y cálculo del OEE en tiempo real.
+
+            </p>
+
+        </div>
+
+        <div class="impacto-card rojo">
+
+            <h3>Industria 4.0</h3>
+
+            <p>
+
+                Integración entre PLC, SCADA, RobotStudio, NX, Node-RED, Azure y
+                el sistema MES.
+
+            </p>
+
         </div>
 
     </div>
@@ -183,47 +328,49 @@
 </div>
 
 <!-- LIMITACIONES -->
+
 <div class="section gray">
 
-    <!-- TITULO -->
     <div class="titulo-limitaciones">
+
         <img src="source/peligro.png">
+
         <h2>Limitaciones</h2>
+
     </div>
 
-    <!-- LISTA -->
     <div class="lista-limitaciones">
 
         <div class="item-limitacion">
             <img src="source/limitacion.png">
-            <p>Alta inversión inicial requerida para la implementación de sistemas robóticos y automatización.</p>
+            <p>Alta inversión inicial requerida para la incorporación de tecnologías de Industria 4.0.</p>
         </div>
 
         <div class="item-limitacion">
             <img src="source/limitacion.png">
-            <p>Dependencia de la calidad y disponibilidad de los datos para un monitoreo y control efectivos.</p>
+            <p>La integración entre plataformas requiere una adecuada configuración de comunicaciones industriales.</p>
         </div>
 
         <div class="item-limitacion">
             <img src="source/limitacion.png">
-            <p>Necesidad de capacitación del personal para la operación y mantenimiento de las nuevas tecnologías.</p>
+            <p>Es necesario capacitar al personal para la operación y mantenimiento de las nuevas herramientas.</p>
         </div>
 
         <div class="item-limitacion">
             <img src="source/limitacion.png">
-            <p>Posibles dificultades en la integración de los sistemas automatizados con la infraestructura existente.</p>
+            <p>La implementación del sistema MES depende de la disponibilidad y calidad de los datos provenientes del SCADA.</p>
         </div>
 
         <div class="item-limitacion">
             <img src="source/limitacion.png">
-            <p>Resultados sujetos a validación mediante simulación, sin implementación real en planta durante el alcance del proyecto.</p>
+            <p>Los resultados obtenidos corresponden a una validación mediante simulación y gemelo digital, sin implementación física en una planta industrial.</p>
         </div>
 
     </div>
 
 </div>
-    
+
 <script src="js/script.js"></script>
+
 </body>
 </html>
-    
