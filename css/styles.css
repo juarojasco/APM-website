@@ -2184,18 +2184,16 @@ grid-template-columns:1fr;
 
 .video-vertical{
 
-    max-width:420px;
+    max-width:380px;
 
     margin:40px auto;
 
-}
+    background:#fff;
 
-.video-vertical video{
+    padding:15px;
 
-    width:100%;
+    border-radius:20px;
 
-    height:auto;
-
-    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 
 }
